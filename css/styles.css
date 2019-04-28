@@ -3,7 +3,6 @@
     box-sizing: border-box;
     font-family: 'Merienda', cursive;
 }
-
 #one{
     background-image: url('https://images.pexels.com/photos/214221/pexels-photo-214221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     max-width: 100%;
@@ -25,8 +24,14 @@
 .output{color:#fff;}
 .calvince {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 60vw;
-    margin: 0 auto;
-    padding: 0 50px;
+    margin: 0 9px;
+    margin-left: 14%;
+    padding: 4.7px;
+ }
+ #tell{
+     color: blue;
+     text-align: center;
+     margin-top: 30px;
  }

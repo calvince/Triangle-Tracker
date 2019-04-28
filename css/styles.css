@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Merienda");
+*,::after,::before{
+    box-sizing: border-box;
+    font-family: 'Merienda', cursive;
+}
+
+#one{
+    background-image: url('https://images.pexels.com/photos/214221/pexels-photo-214221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    max-width: 100%;
+    color: #fff;
+    height:100vh ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -1%;
+    position: relative;
+}

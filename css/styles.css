@@ -14,3 +14,13 @@
     margin-top: -1%;
     position: relative;
 }
+.omonge{
+    color: greenyellow;;
+}
+.container h2, .container h3{
+    text-align: center;
+}
+.container h3{
+    margin-top: 10%;
+}
+.output{color:#fff;}

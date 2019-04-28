@@ -23,4 +23,10 @@
     margin-top: 10%;
 }
 .output{color:#fff;}
-
+.calvince {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: 0 auto;
+    padding: 0 50px;
+ }

@@ -29,19 +29,19 @@ function myFunction(){
     var newTriangle = new mainTriangle(sideA,sideB,sideC);
     // console.log(newTriangle);
     if(newTriangle.checkTriangle()){
-        document.getElementById('tell').innerHTML = 'Cannot be a triangle.';
+        document.getElementById('tell').innerHTML = ('Have 0 value:' +' Cannot be a triangle. ');
     }
     else if(newTriangle.isNotTriangle()){
-        document.getElementById('tell').innerHTML = 'NOT a triangle.'
+        document.getElementById('tell').innerHTML = ('NOT a triangle.');
     }
     else if(newTriangle.isEquilateral()){
-        document.getElementById('tell').innerHTML = 'Equilateral triangle.'
+        document.getElementById('tell').innerHTML = (' Equilateral triangle: ' + ' All sides equal');
     }
     else if(newTriangle.isIsosceles()){
-        document.getElementById('tell').innerHTML = 'Iscosceles triangle.'
+        document.getElementById('tell').innerHTML = (' Iscosceles triangle ' + ' 2 sides are equal');
     }
     else{
-        document.getElementById('tell').innerHTML = 'Scalene triangle.'
+        document.getElementById('tell').innerHTML = (' Scalene triangle ' + ' None of the sides equal');
     }
     
     

@@ -19,17 +19,25 @@ class mainTriangle{
     isScalene(){
         return !this.isEquilateral();
     }
+    isEmptyValue(){
+        return isNaN(this.dimen1) || isNaN(this.dimen2) || isNaN(this.dimen3);
+    }
 }
 
 function myFunction(){
     var sideA= parseFloat(document.getElementById('first').value);
     var sideB= parseFloat(document.getElementById('second').value);
     var sideC= parseFloat(document.getElementById('third').value);
+     
+    alefo=[sideA,sideB,sideC];
     
     var newTriangle = new mainTriangle(sideA,sideB,sideC);
     // console.log(newTriangle);
     if(newTriangle.checkTriangle()){
         document.getElementById('tell').innerHTML = ('Have 0 value:' +' Cannot be a triangle. ');
+    }
+    else if(newTriangle.isEmptyValue()){
+        document.getElementById('tell').innerHTML = ('Not a number');
     }
     else if(newTriangle.isNotTriangle()){
         document.getElementById('tell').innerHTML = ('NOT a triangle.');

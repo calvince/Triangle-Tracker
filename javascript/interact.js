@@ -20,3 +20,18 @@ class mainTriangle{
         return !this.isEquilateral();
     }
 }
+
+function myMainFunction(){
+    var sideA= parseFloat(document.getElementById('A').value);
+    var sideB= parseFloat(document.getElementById('B').value);
+    var sideC= parseFloat(document.getElementById('C').value);
+    
+    var newTriangle = new mainTriangle(sideA,sideB,sideC);
+    // console.log(newTriangle);
+    if(newTriangle.checkTriangle()){
+        document.getElementById('tell').innerHTML = 'Cannot be a triangle.';
+    }
+    
+    
+
+}

@@ -6,13 +6,12 @@
 ## Description
 This is a webpage that takes three values from a user and works on them to determine if they make up a triangle and what type of triangle it is.
 ## Project live site
-
+  https://calvince.github.io/Triangle-Tracker/
 ## Setup instructions
 * You can fork the repo to your main repo using the fork button on top of the screen
 * Click on the green button to clone or download
 
 ## Behavior Driven Development
-
 <table>
     <tr>
       <th>Behavior</th> 
@@ -38,10 +37,8 @@ This is a webpage that takes three values from a user and works on them to deter
         <td>Sum of two values<= third value </td>
         <td>[1,2,5]</td>
         <td>No triangle</td>
-    </tr>
-    
+    </tr>    
 </table>
-
 ## Technologies Used
 * HTML
 * CSS

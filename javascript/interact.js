@@ -47,3 +47,8 @@ function myFunction(){
     
 
 }
+ function myReset(){
+    document.getElementById('first').value = '';
+    document.getElementById('second').value = '';
+    document.getElementById('third').value = '';
+ }

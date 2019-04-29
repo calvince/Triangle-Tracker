@@ -49,5 +49,5 @@ This is a webpage that takes three values from a user and works on them to deter
 contact me @ calmosh1421@gmail.com
 ### License
 *MIT LICENSE
-Copyright &copy; 2019.All rigths reserved
+Copyright &copy; 2019.All rigths reservedg
   

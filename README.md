@@ -39,6 +39,7 @@ This is a webpage that takes three values from a user and works on them to deter
         <td>No triangle</td>
     </tr>    
 </table>
+
 ## Technologies Used
 * HTML
 * CSS
